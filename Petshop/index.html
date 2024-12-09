@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petshop - Home</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FFF4E6;
+      }
+
+      /* Header Geral */
+header {
+    background-color: #FFA07A;
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid var(--secondary);
+    border-radius: 0 0 15px 15px;
+}
+
+/* Título do Header */
+header h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Navegação */
+header nav {
+    display: flex; /* Torna os itens filhos flexíveis */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha em telas menores */
+    gap: 10px; /* Espaçamento entre os links */
+}
+
+/* Links da Navegação */
+header nav a {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #A8D5BA;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+/* Hover nos Links */
+header nav a:hover {
+    background-color: #A8D5BA;
+    color: #8B4513;
+    transform: scale(1.1);
+}
+
+      main {
+        padding: 20px;
+      }
+
+      section {
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        color: #8B4513;
+      }
+
+      footer {
+        background-color: #A8D5BA;
+        color: white;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo ao Petshop Carinhos e Caudas!</h1>
+      <nav>
+        <a href="./login.html">Login</a>
+        <a href="./singup.html">Cadastre-se</a>
+        <a href="./pet-register.html">Registrar Pet</a>        
+        <a href="./service-registration.html">Serviços</a>
+        <a href="./service-scheduling.html">Agendamento</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Sobre Nós</h2>
+        <p>
+          Oferecemos os melhores cuidados para seu pet, com amor e dedicação!
+        </p>
+      </section>
+      <section>
+        <h2>Principais Serviços</h2>
+        <ul>
+          <li>Banho e Tosa</li>
+          <li>Consulta Veterinária</li>
+          <li>Hospedagem</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Petshop Carinhos e Caldas - Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
